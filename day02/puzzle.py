@@ -34,6 +34,7 @@ def exec_aim(commands):
     return horiz * depth
 
 commands = read_file()
+
 final = exec_commands(commands)
 print("1:", final)
 
